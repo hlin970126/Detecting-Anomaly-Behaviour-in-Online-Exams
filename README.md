@@ -17,4 +17,4 @@ The data_to_tensors file reads from google drive and unpacks videoes into data t
 The behviour_detect file trains on the dataset and makes a model for prediction
 
 # How can it work with different datasets?
-You can either re-train the model by using own data, or use the existing model from https://drive.google.com/drive/folders/1st8YnN30R6NN2pOdk4kpKY9SRuqFF7HN?usp=drive_link, run the model converging method in behaviour_detect, and use the combined model for own testing
+You can either re-train the model by using own data, or use the existing model from https://drive.google.com/drive/folders/1st8YnN30R6NN2pOdk4kpKY9SRuqFF7HN?usp=drive_link, put the models in correct path in drive (or local if you want to use local training) run the model converging method in behaviour_detect, and use the combined model for own testing
